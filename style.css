@@ -1,0 +1,23 @@
+div , header {
+    border: 1px solid red;
+}
+
+body {
+    border: 1px solid black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/*header*/
+.linea {
+    display: flex;
+    padding: 10px;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    flex: 2 1 0%;
+    justify-content: flex-end;
+}
