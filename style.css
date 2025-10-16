@@ -2,16 +2,27 @@ div , header {
     border: 1px solid red;
 }
 
-body {
-    border: 1px solid black;
-    margin-left: 100px;
-    margin-right: 100px;
+/*stilos letras*/
+.main-text{
+    color: aliceblue;
+    font-size: 18px;
 }
 
-/*header*/
-.linea {
-    display: flex;
-    padding: 10px;
+
+/*flex-general*/
+.contenedor {
+    display: flex;  
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+/*header y hero*/
+.hero {
+    border: 1px solid rgb(51, 13, 13);
+
+    background-color: #1F2937;
+    color: aliceblue; 
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .links{
@@ -20,4 +31,24 @@ body {
     gap: 45px;
     flex: 2 1 0%;
     justify-content: flex-end;
+}
+
+.he {
+    padding: 10px;
+}
+
+/*firts zone*/
+.first{
+    flex: 1;
+    display: block;
+    box-sizing: border-box;
+}
+
+.first > button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
 }
