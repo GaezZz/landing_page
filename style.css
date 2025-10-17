@@ -22,8 +22,8 @@
     border: 1px solid rgb(51, 13, 13);
     background-color: #1F2937;
     color: aliceblue; 
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 130px;
+    padding-right: 130px;
     margin-left: -33px;
     margin-right: -33px;
     margin-top: -20px;
@@ -124,10 +124,12 @@ h2 {
 
 /*zona quote*/
 .quote_back {
+    display: flex;
     background-color: #E5E7EB;
     color: rgb(0, 0, 0); 
-    padding-left: 100px;
-    padding-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 130px;
+    padding-right: 130px;
     margin-left: -33px;
     margin-right: -33px;
     margin-top: 120px;
@@ -142,5 +144,14 @@ h2 {
 
 .quote > p {
     position: relative;
-    top: -20px;
+    top: -40px;
+    font-size: 24px;
+    color: #616161;
+    font-weight: lighter;
+}
+
+.quote > h3 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300px;
 }
