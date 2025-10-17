@@ -1,6 +1,6 @@
-div , header {
+/*div , header {
     border: 1px solid red;
-}
+}*/
 
 /*stilos letras*/
 .main-text{
@@ -18,11 +18,13 @@ div , header {
 /*header y hero*/
 .hero {
     border: 1px solid rgb(51, 13, 13);
-
     background-color: #1F2937;
     color: aliceblue; 
     padding-left: 100px;
     padding-right: 100px;
+    margin-left: -33px;
+    margin-right: -33px;
+    margin-top: -20px;
 }
 
 .links{
@@ -42,8 +44,16 @@ div , header {
     flex: 1;
     display: block;
     box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-top: 60px;
 }
-
+.first > h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900px;
+}
 .first > button {
     background-color: #3882F6;
     border: none;
@@ -51,4 +61,19 @@ div , header {
     width: 100px;
     height: 30px;
     font-weight: bold;
+    color: aliceblue;
+}
+
+.initial_ima {
+    display: flex;
+    justify-content: end; /* centra horizontalmente */
+    align-items: center;     /* centra verticalmente */
+    overflow: hidden;        /* para recortar si la imagen se sale */
+}
+
+
+.initial_ima > img{
+    width: 90%;
+    height: 80%;
+    border-radius: 6px;
 }
